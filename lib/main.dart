@@ -53,7 +53,7 @@ class _QuizPageState extends State<QuizPage> {
             context: context,
             builder: (_) => CupertinoAlertDialog(
               title: Text("Finished!"),
-              content: Text("You've reached the end of the quiz"),
+              content: Text("You've reached the end of the quiz."),
             ),
             barrierDismissible: true,
           );
